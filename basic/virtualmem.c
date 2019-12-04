@@ -59,6 +59,7 @@ static ssize_t Virtualmem_read(struct file *filp,char __user *buf,size_t size,lo
 	return 0;
 }
 
+//add some code
 static ssize_t Virtualmem_write(struct file *filp,const char __user *buf,size_t size,loff_t *ppos)
 {
 	unsigned long p = *ppos;
